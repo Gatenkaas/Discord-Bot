@@ -1,0 +1,12 @@
+Discord Bot
+
+Hoe self-host je de discord bot
+
+1. Download de main.py
+2. ga naar https://discord.com/developers/applications en klik op new application
+3. er komt een nieuw scherm en je klikt op bot aan de zijkant
+4. ondertoken staat reset token klik daarop en dan klik op copy token
+5. Om je token in de bot te zetten heb je een text editor nodig die .py python bestanden kan opslaan en wijzigen ik gebruik visual studio code
+6. op main.py zie staan 'bot_token_here' verwijder het stukje tussen haakjes en plak je code daar
+7. open je map in cmd en type python main.py 
+8. je mnoet wel voor de vorige stap python geinstallerd hebben
