@@ -41,4 +41,17 @@ async def echo(ctx, *, message):
 async def ip(ctx):
     await ctx.send("Server is nog in productie")
 
+@client.command()
+async def wakker(ctx):
+    await ctx.send("Ja ben nog wakker {member.mention}")
+
+@client.command()
+async def github(ctx):
+    await ctx.send("github.com/Gatenkaas")
+
+@client.command()
+async def website(ctx):
+    await ctx.send("gatenkaas.github.io/Website")
+
+
 client.run('Bot_token_here')
